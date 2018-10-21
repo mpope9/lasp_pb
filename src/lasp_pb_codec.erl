@@ -11,7 +11,7 @@
 %% Defines for state encoding
 -define (CRDT_COUNTERS, [bcounter, gcounter, pncounter, lexcounter]).
 -define (CRDT_FLAGS, [ewflag, dwflag]).
--define (CRDT_SETS, [gset, awset, rwset, twopset, orset, gset]).
+-define (CRDT_SETS, [state_gset, awset, rwset, twopset, orset]).
 -define (CRDT_REGISTERS, [mvregister, lwwregister]).
 -define (CRDT_MAPS, [mvmap, gmap, awmap]).
 
